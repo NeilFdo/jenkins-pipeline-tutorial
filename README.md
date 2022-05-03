@@ -1,6 +1,26 @@
 # 20 commands of linux
 ```
-compgen -c
+ifconfig
+mkdir hi
+ls
+cd hi
+pwd
+nano hi.txt
+touch test.txt
+echo "hello" > file3.txt
+nano file4.txt
+cp hi.txt file6.txt
+mv hi.txt file7.txt
+df
+du
+rm file6.txt
+mkdir bye
+rmdir bye
+man pwd
+pwd --help
+locate hi.txt
+uname
+sudo apt-get update
 ```
 
 # git fetch push pull merge
@@ -129,15 +149,20 @@ image name/image id can be used
 docker search ubuntu
 docker pull ubuntu
 docker images
+docker images -q
 
 docker run -t -d ubuntu
 docker ps
 docker pause containername
 docker unpause containername
 docker stop containername
-docker run --name containername ubuntu
+docker run --name containername hello
+docker kill ubuntu
 docker ps -a
 docker rm containername
+docker rmi imagename
+
+docker stats
 
 docker run -it ubuntu
 exit
@@ -150,6 +175,8 @@ docker commit container_id imagename
 docker tag imagename username/nameOfRepository
 docker push username/nameOfRepository
 check if image has been uploaded to your dockerhub
+
+docker container prune
 
 ```
 
