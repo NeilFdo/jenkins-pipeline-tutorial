@@ -36,6 +36,7 @@ git push
 git fetch 
 git status
 git merge
+git chechkout -b anyname
 ```
 
 
